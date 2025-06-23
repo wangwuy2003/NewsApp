@@ -7,3 +7,12 @@
 
 "intro3Title" = "Stay updated anytime";
 "intro3Subtitle" = "Get instant notifications and never miss breaking news again.";
+"next" = "Next";
+
+//login
+"welcomeBack" = "Welcome back!";
+"title" = "I am happy to see you again. You can continue where you left off by logging in.";
+"email" = "Email Address";
+"password" = "Password";
+"forgotPassword" = "Forgot Password?";
+"or" = "or";

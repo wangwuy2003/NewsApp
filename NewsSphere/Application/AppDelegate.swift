@@ -11,11 +11,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .white
-        let vc = SplashVC()
-        window?.rootViewController = vc
-        window?.makeKeyAndVisible()
+        let window = self.window ?? UIWindow()
+        
+        self.window = window
+        Application.shared.configMainInterface(in: window)
         return true
     }
     

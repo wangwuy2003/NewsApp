@@ -16,5 +16,15 @@ enum Localized {
         static let intro1Subtitle = "intro1Subtitle".localized
         static let intro2Subtitle = "intro2Subtitle".localized
         static let intro3Subtitle = "intro3Subtitle".localized
+        static let next = "next".localized
+    }
+    
+    enum Login {
+        static let welcomeBack = "welcomeBack".localized
+        static let title = "title".localized
+        static let email = "email".localized
+        static let password = "password".localized
+        static let forgotPassword = "forgotPassword".localized
+        static let or = "or".localized
     }
 }
